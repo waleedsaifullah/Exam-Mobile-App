@@ -1,15 +1,10 @@
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import SplashScreen from './src/screens/SplashScreen'
+
 
 export default function App() {
     return (
-        <View style={{
-            flex:1,
-            backgroundColor: 'purple',
-        }}>
-            <Text>ExamApp</Text>
-        </View>
+        <SplashScreen/>
     )
 }
 
-const styles = StyleSheet.create({})
