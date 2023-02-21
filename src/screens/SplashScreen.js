@@ -13,13 +13,13 @@ export default function SplashScreen() {
 const styles = StyleSheet.create({
     screen: {
         flex:1,
-        backgroundColor:"#fff",
+        backgroundColor:"#fffafa",
         alignItems:'center',
         justifyContent:"center"
     },
     title: {
         alignSelf:'center',
-        fontSize:20,
+        fontSize:50,
         fontWeight:'700',
         letterSpacing:1.2,
         color: Colors.main
